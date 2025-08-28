@@ -5,7 +5,7 @@ using namespace std;
 using namespace chrono;
 
 int main() {
-    const int N = 100000000; // 1亿
+    const int N = 200000000; // 2亿
     vector<int> arr(N, 1);   // 初始化数组全是1
 
     auto start = high_resolution_clock::now();
